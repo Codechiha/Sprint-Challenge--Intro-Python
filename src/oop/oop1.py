@@ -21,24 +21,29 @@
 
 # Base Class
 class Vehicle:
-    pass
+    def __init__(self):
+        pass
 
 class GroundVehicle(Vehicle):
-    pass
+    def __init__(self):
+        pass
 
-x = GroundVehicle("Car")
-y = GroundVehicle("Motorcycle")
+class Car(GroundVehicle):
+    def __init__(self):
+        pass
 
-print(x)
-print(y)
+class Motorcycle(GroundVehicle):
+    def __init__(self):
+        pass
 
 class FlightVehicle(Vehicle):
-    pass
+    def __init__(self):
+        pass
 
-z = FlightVehicle("Airplane")
+class Airplane(FlightVehicle):
+    def __init__(self):
+        pass
 
-print(z)
-
-
-class Starship(Vehicle):
-    pass
+class Starship(FlightVehicle):
+    def __init__(self):
+        pass
