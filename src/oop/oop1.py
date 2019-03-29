@@ -17,3 +17,28 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+
+
+# Base Class
+class Vehicle:
+    pass
+
+class GroundVehicle(Vehicle):
+    pass
+
+x = GroundVehicle("Car")
+y = GroundVehicle("Motorcycle")
+
+print(x)
+print(y)
+
+class FlightVehicle(Vehicle):
+    pass
+
+z = FlightVehicle("Airplane")
+
+print(z)
+
+
+class Starship(Vehicle):
+    pass
